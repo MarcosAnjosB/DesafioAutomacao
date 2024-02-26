@@ -1,0 +1,20 @@
+USE [DesafioAutomacao_Dev]
+GO
+
+/****** Object:  Table [dbo].[Book]    Script Date: 26/02/2024 16:34:33 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Book](
+	[Title] [varchar](200) NOT NULL,
+	[Teacher] [varchar](200) NOT NULL,
+	[Workload] [varchar](200) NOT NULL,
+	[Description] [varchar](2000) NOT NULL,
+	[IdBook] [int] IDENTITY(1,1) NOT NULL
+) ON [PRIMARY]
+GO
+
+
